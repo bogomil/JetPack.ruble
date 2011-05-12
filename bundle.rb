@@ -11,6 +11,10 @@ bundle do |jetpack|
 
 	#defining the menu
 	jetpack.menu 'Mozilla JetPack' do |main_menu|
-    main_menu.command 'Run JetPack'
+    main_menu.command 'Run this JetPack in browser'
+    main_menu.command 'Create XPI'
+    main_menu.separator
+    main_menu.command 'Test the environment'
+    main_menu.command 'View Docs' 
   end
 end
